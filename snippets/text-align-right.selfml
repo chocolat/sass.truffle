@@ -1,0 +1,8 @@
+(name [text-align: right])
+
+(trigger
+    (tab ta))
+
+(only-in source.sass)
+
+(snippet [text-align: right%{0}])

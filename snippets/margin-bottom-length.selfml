@@ -1,0 +1,8 @@
+(name [margin-bottom: length])
+
+(trigger
+    (tab mb))
+
+(only-in source.sass)
+
+(snippet [margin-bottom: %{1="1"}%{2="em"}%{0}])

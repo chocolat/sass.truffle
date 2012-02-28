@@ -1,0 +1,8 @@
+(name letter-spacing:)
+
+(trigger
+    (tab ls))
+
+(only-in source.sass)
+
+(snippet [letter-spacing: %{1=".1"}%{2="em"}%{0}])

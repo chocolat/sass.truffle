@@ -1,0 +1,8 @@
+(name [border-top-color: color])
+
+(trigger
+    (tab btc))
+
+(only-in source.sass)
+
+(snippet [border-top-color: #%{1="999"}%{0}])

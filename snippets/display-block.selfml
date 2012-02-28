@@ -1,0 +1,8 @@
+(name [display: block])
+
+(trigger
+    (tab d))
+
+(only-in source.sass)
+
+(snippet [display: block%{0}])

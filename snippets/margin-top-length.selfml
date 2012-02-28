@@ -1,0 +1,8 @@
+(name [margin-top: length])
+
+(trigger
+    (tab mt))
+
+(only-in source.sass)
+
+(snippet [margin-top: %{1="1"}%{2="em"}%{0}])

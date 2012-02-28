@@ -1,0 +1,8 @@
+(name [display: marker])
+
+(trigger
+    (tab d))
+
+(only-in source.sass)
+
+(snippet [display: marker%{0}])

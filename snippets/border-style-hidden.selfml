@@ -1,0 +1,8 @@
+(name [border-style: hidden])
+
+(trigger
+    (tab bs))
+
+(only-in source.sass)
+
+(snippet [border-style: hidden%{0}])

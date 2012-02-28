@@ -1,0 +1,11 @@
+(name border-radius-top)
+
+(trigger
+    (tab brt))
+
+(only-in source.sass)
+
+(snippet [-moz-border-radius-topright: 		%{2=".5em"}
+-webkit-border-top-right-radius: 	%{2}
+-moz-border-radius-topleft:			%{2}
+-webkit-border-top-left-radius:		%{2}])

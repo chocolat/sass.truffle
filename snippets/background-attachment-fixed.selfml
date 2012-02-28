@@ -1,0 +1,8 @@
+(name [background-attachment: fixed])
+
+(trigger
+    (tab bga))
+
+(only-in source.sass)
+
+(snippet [background-attachment: fixed%{0}])

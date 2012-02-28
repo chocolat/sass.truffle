@@ -1,0 +1,8 @@
+(name [min-height: length])
+
+(trigger
+    (tab mh))
+
+(only-in source.sass)
+
+(snippet [min-height: %{1="20"}%{2="px"}%{0}])

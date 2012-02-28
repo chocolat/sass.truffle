@@ -1,0 +1,11 @@
+(name [properties { } ( } )])
+
+(trigger
+    (tab [{]))
+
+(only-in source.sass)
+
+(snippet [
+	/ %{1}
+	%{0}
+])

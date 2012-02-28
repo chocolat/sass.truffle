@@ -1,0 +1,8 @@
+(name background)
+
+(trigger
+    (tab bg))
+
+(only-in source.sass)
+
+(snippet [background: #%{1="fff"} url(%{2}) no-repeat%{0}])

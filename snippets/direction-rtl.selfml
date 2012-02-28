@@ -1,0 +1,8 @@
+(name [direction: rtl])
+
+(trigger
+    (tab di))
+
+(only-in source.sass)
+
+(snippet [direction: rtl%{0}])

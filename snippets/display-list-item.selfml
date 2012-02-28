@@ -1,0 +1,8 @@
+(name [display: list-item])
+
+(trigger
+    (tab d))
+
+(only-in source.sass)
+
+(snippet [display: list-item%{0}])

@@ -1,0 +1,8 @@
+(name [cursor: wait])
+
+(trigger
+    (tab cu))
+
+(only-in source.sass)
+
+(snippet [cursor: wait%{0}])

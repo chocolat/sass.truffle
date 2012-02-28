@@ -1,0 +1,8 @@
+(name [background-repeat: repeat-x])
+
+(trigger
+    (tab bgr))
+
+(only-in source.sass)
+
+(snippet [background-repeat: repeat-x%{0}])

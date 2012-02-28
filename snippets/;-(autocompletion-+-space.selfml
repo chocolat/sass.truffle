@@ -1,0 +1,8 @@
+(name [: ; (autocompletion + space])
+
+(trigger
+    (key [[shift]:]))
+
+(only-in [support.type.property-name.sass, meta.property-name.sass, meta.scope.property-list.sass meta.property])
+
+(snippet [: %{0};])

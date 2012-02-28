@@ -1,0 +1,8 @@
+(name width:)
+
+(trigger
+    (tab w))
+
+(only-in source.sass)
+
+(snippet [width: %{1="0"}%{2="em"}])

@@ -1,0 +1,8 @@
+(name comment)
+
+(trigger
+    (key [[alt][cmd]C]))
+
+(only-in source.sass)
+
+(snippet [// %{TM_SELECTED_TEXT}])

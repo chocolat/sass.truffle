@@ -1,0 +1,8 @@
+(name [padding: all])
+
+(trigger
+    (tab p))
+
+(only-in source.sass)
+
+(snippet [padding: %{1="1"}%{2="em"}%{0}])

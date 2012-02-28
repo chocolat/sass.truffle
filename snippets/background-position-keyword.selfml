@@ -1,0 +1,8 @@
+(name [background-position: keyword])
+
+(trigger
+    (tab bgp))
+
+(only-in source.sass)
+
+(snippet [background-position:%{1=" left"}%{2=" center"}%{3=" right"}%{4=" top"}%{5=" center"}%{6=" bottom"}%{0}])

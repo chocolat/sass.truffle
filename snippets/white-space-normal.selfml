@@ -1,0 +1,8 @@
+(name [white-space: normal])
+
+(trigger
+    (tab ws))
+
+(only-in source.sass)
+
+(snippet [white-space: normal%{0}])

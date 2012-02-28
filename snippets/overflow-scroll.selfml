@@ -1,0 +1,8 @@
+(name [overflow: scroll])
+
+(trigger
+    (tab o))
+
+(only-in source.sass)
+
+(snippet [overflow: scroll%{0}])

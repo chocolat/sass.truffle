@@ -1,0 +1,10 @@
+(name border-radius)
+
+(trigger
+    (tab br))
+
+(only-in source.sass)
+
+(snippet [-moz-border-radius: %{2=".5em"}
+-webkit-border-radius: %{2}
+border-radius: %{2}])

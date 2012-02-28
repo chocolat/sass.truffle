@@ -1,0 +1,8 @@
+(name [border-style: outset])
+
+(trigger
+    (tab bs))
+
+(only-in source.sass)
+
+(snippet [border-style: outset%{0}])

@@ -1,0 +1,8 @@
+(name [max-height: length])
+
+(trigger
+    (tab mh))
+
+(only-in source.sass)
+
+(snippet [max-height: %{1="20"}%{2="px"}%{0}])

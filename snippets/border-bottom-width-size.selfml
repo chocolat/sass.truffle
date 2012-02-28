@@ -1,0 +1,8 @@
+(name [border-bottom-width: size])
+
+(trigger
+    (tab bbw))
+
+(only-in source.sass)
+
+(snippet [border-bottom-width: %{1="1"}%{2="px"}%{0}])

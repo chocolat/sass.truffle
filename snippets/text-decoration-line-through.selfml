@@ -1,0 +1,8 @@
+(name [text-decoration: line-through])
+
+(trigger
+    (tab td))
+
+(only-in source.sass)
+
+(snippet [text-decoration: line-through%{0}])

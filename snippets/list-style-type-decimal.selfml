@@ -1,0 +1,8 @@
+(name [list-style-type: decimal])
+
+(trigger
+    (tab lst))
+
+(only-in source.sass)
+
+(snippet [list-style-type: decimal%{0}])

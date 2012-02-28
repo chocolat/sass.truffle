@@ -1,0 +1,8 @@
+(name [font-weight: bold])
+
+(trigger
+    (tab fw))
+
+(only-in source.sass)
+
+(snippet [font-weight: bold%{0}])

@@ -1,0 +1,8 @@
+(name [list-style-type: xtra])
+
+(trigger
+    (tab lst))
+
+(only-in source.sass)
+
+(snippet [list-style-type: %{1="lower-roman/uppert-roman/lower-alpha/upper-alpha/lower-greek/lower-latin/upper-latin/cjk-ideographic/hiragana/katakana/hiragana-iroha/katakana-iroha/hebrew/armenian/georgian"}%{0}])

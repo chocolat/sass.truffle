@@ -1,0 +1,8 @@
+(name [marker-offset: length])
+
+(trigger
+    (tab mo))
+
+(only-in source.sass)
+
+(snippet [marker-offset: %{1="1"}%{2="em"}%{0}])

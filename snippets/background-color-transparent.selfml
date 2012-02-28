@@ -1,0 +1,8 @@
+(name [background-color: transparent])
+
+(trigger
+    (tab bgc))
+
+(only-in source.sass)
+
+(snippet [background-color: transparent%{0}])

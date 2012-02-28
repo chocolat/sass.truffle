@@ -1,0 +1,8 @@
+(name [display: inline])
+
+(trigger
+    (tab d))
+
+(only-in source.sass)
+
+(snippet [display: inline%{0}])

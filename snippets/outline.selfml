@@ -1,0 +1,8 @@
+(name outline:)
+
+(trigger
+    (tab o))
+
+(only-in source.sass)
+
+(snippet [outline: %{1="1"}px %{2="solid"} #%{3="999"}%{0}])

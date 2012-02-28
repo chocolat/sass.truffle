@@ -1,0 +1,8 @@
+(name [list-style-position: outside])
+
+(trigger
+    (tab lsp))
+
+(only-in source.sass)
+
+(snippet [list-style-position: outside%{0}])

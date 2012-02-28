@@ -1,0 +1,8 @@
+(name [list-style-type: disc])
+
+(trigger
+    (tab lst))
+
+(only-in source.sass)
+
+(snippet [list-style-type: disc%{0}])

@@ -1,0 +1,8 @@
+(name [white-space: nowrap])
+
+(trigger
+    (tab ws))
+
+(only-in source.sass)
+
+(snippet [white-space: nowrap%{0}])

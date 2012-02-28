@@ -1,0 +1,8 @@
+(name [text-indent: length])
+
+(trigger
+    (tab ti))
+
+(only-in source.sass)
+
+(snippet [text-indent: %{1="20"}%{2="px"}%{0}])

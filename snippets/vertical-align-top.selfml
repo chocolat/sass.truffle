@@ -1,0 +1,8 @@
+(name [vertical-align: top])
+
+(trigger
+    (tab va))
+
+(only-in source.sass)
+
+(snippet [vertical-align: top%{0}])

@@ -1,0 +1,11 @@
+(name [Insert Image path])
+
+(only-in source.sass)
+
+(output snippet)
+
+(file-extensions png jpeg jpg gif)
+
+(script [img="$TM_DROPPED_FILE"
+echo -n $img
+])

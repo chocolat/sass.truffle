@@ -1,0 +1,48 @@
+(menu
+    (submenu color command.insert-color… snippet.color-sass snippet.color-hex snippet.color-rgb snippet.color-name)
+    (submenu borders snippet.border-all snippet.border-all-compact snippet.border-color-color snippet.border-style-none snippet.border-top snippet.border-top-color-sass snippet.border-top-color-color snippet.border-top-style-style snippet.border-top-width-size snippet.border-right-size-style-color snippet.border-right-color-sass snippet.border-right-color-color snippet.border-right-style-style snippet.border-right-width-size snippet.border-bottom snippet.border-bottom-width-size snippet.border-bottom-style-style snippet.border-bottom-color-sass snippet.border-bottom-color-color snippet.border-left snippet.border-left-color-sass snippet.border-left-color-color snippet.border-left-style-style snippet.border-left-width-size snippet.border-1px-debbug snippet.border-collapse-collapse snippet.border-collapse-separate snippet.border-spacing snippet.border-style-dashed snippet.border-style-dotted snippet.border-style-double snippet.border-style-groove snippet.border-style-hidden snippet.border-style-inset snippet.border-style-outset snippet.border-style-ridge snippet.border-style-solid snippet.border-width-all snippet.border-width-t-r-b-l snippet.border-width-v-h)
+    (submenu background snippet.background snippet.background-color-sass snippet.background-color-hex snippet.background-color-rgb snippet.background-color-name snippet.background-color-transparent snippet.background-image-url snippet.background-image-none snippet.background-attachment-scroll snippet.background-position-keyword snippet.background-repeat-repeat-x snippet.background-attachment-fixed snippet.background-position-px-or-% snippet.background-repeat-no-repeat snippet.background-repeat-repeat snippet.background-repeat-repeat-y)
+    (submenu layout snippet.margin-t-r-b-l snippet.margin-all snippet.margin-v-h snippet.margin-bottom-length snippet.margin-left-length snippet.margin-right-length snippet.margin-top-length snippet.margin-0-auto snippet.untitled snippet.margin-padding-0 --- snippet.padding-t-r-b-l snippet.padding-all snippet.padding-v-h snippet.padding-bottom-length snippet.padding-left-length snippet.padding-right-length snippet.padding-top-length snippet.untitled-2 --- snippet.display-compact snippet.display-inline-block snippet.display-list-item snippet.display-marker snippet.display-run-in --- snippet.float-none snippet.float-right snippet.float-left snippet.clear-left snippet.clear-both snippet.clear-none snippet.clear-right --- snippet.position-absolute snippet.position-fixed snippet.position-relative [snippet.position-static-(default)] snippet.z-index --- snippet.display-inline snippet.display-block snippet.display-none snippet.display-table-types snippet.visibility-visible snippet.visibility-collapse snippet.visibility-hidden --- snippet.vertical-align-baseline snippet.vertical-align-bottom snippet.vertical-align-text-bottom snippet.vertical-align-length snippet.vertical-align-middle snippet.vertical-align-sub snippet.vertical-align-super snippet.vertical-align-text-top snippet.vertical-align-top --- snippet.overflow-auto snippet.overflow-hidden snippet.overflow-scroll snippet.overflow-visible --- snippet.width snippet.height snippet.top snippet.right snippet.bottom snippet.left --- snippet.max-height-length snippet.max-width-length snippet.min-height-length snippet.min-width-length)
+    (submenu [font and type]
+        snippet.font
+        snippet.font-family-family
+        snippet.font-size-size
+        snippet.font-style-normal
+        snippet.font-variant-normal
+        snippet.font-weight-bold
+        snippet.font-style-oblique
+        snippet.font-style-italic
+        snippet.font-variant-small-caps
+        snippet.font-weight-normal
+        ---
+        snippet.letter-spacing
+        snippet.line-height
+        snippet.word-spacing-length
+        snippet.word-spacing-normal
+        snippet.white-space-normal
+        snippet.white-space-nowrap
+        snippet.white-space-pre
+        ---
+        snippet.text-align-left
+        snippet.text-align-center
+        snippet.text-align-justify
+        snippet.text-align-right
+        ---
+        snippet.text-decoration-none
+        snippet.text-decoration-line-through
+        snippet.text-decoration-overline
+        snippet.text-decoration-underline
+        snippet.text-indent-length
+        snippet.text-shadow-color-hex-x-y-blur
+        snippet.text-shadow-color-rgb-x-y-blur
+        snippet.text-shadow-none
+        snippet.text-transform-capitalize
+        snippet.text-transform-none
+        snippet.text-transform-lower
+        snippet.text-transform-upper
+        (submenu lists snippet.list-style snippet.list-style-image-url snippet.list-style-position-inside snippet.list-style-type-disc snippet.list-style-type-decimal-leading-zero snippet.list-style-type-xtra snippet.list-style-position-outside snippet.list-style-type-circle snippet.list-style-type-decimal snippet.list-style-type-none snippet.list-style-type-square))
+    (submenu hacks snippet.clearfix snippet.clearfix-3 snippet.clearfix-2 snippet.+clearfix --- [snippet.ie-png-filter-(!validate)] snippet.!important-css snippet.fixed-position-bottom-100%-wide-ie6)
+    (submenu cursor snippet.cursor-help snippet.cursor-url snippet.cursor-auto snippet.cursor-crosshair snippet.cursor-default snippet.cursor-move snippet.cursor-pointer snippet.cursor-resize snippet.cursor-text snippet.cursor-wait)
+    (submenu [rounded corners] snippet.rounded-corners-top snippet.rounded-corners-bottom snippet.rounded-corners)
+    (submenu [more stuff] command.documentation-for-property [snippet.properties-{-}-(-}-)] snippet.direction-rtl snippet.marker-offset-length snippet.marker-offset-auto [snippet.opacity-[for-safari,-ff-&-ie]] snippet.caption-side-bottom snippet.caption-side-left snippet.caption-side-right snippet.caption-side-top snippet.direction-ltr snippet.empty-cells-hide snippet.empty-cells-show [snippet.;-(autocompletion-+-space] snippet.outline snippet.scrollbar)
+    snippet.comment)

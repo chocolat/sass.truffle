@@ -1,0 +1,8 @@
+(name [padding-top: length])
+
+(trigger
+    (tab pt))
+
+(only-in source.sass)
+
+(snippet [padding-top: %{1="1"}%{2="em"}%{0}])

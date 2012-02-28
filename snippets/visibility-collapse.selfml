@@ -1,0 +1,8 @@
+(name [visibility: collapse])
+
+(trigger
+    (tab v))
+
+(only-in source.sass)
+
+(snippet [visibility: collapse%{0}])

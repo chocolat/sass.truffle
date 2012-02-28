@@ -1,0 +1,8 @@
+(name [display: run-in])
+
+(trigger
+    (tab d))
+
+(only-in source.sass)
+
+(snippet [display: run-in%{0}])

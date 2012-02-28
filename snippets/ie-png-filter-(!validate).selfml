@@ -1,0 +1,10 @@
+(name [IE png filter (!validate)])
+
+(trigger
+    (tab iepng))
+
+(only-in source.sass)
+
+(snippet [background-image: none;
+/ URI relative to HTML page, not CSS file!!
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='_img/%{1="image_name"}.png',sizingMethod='scale')%{0}])

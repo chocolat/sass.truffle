@@ -1,0 +1,28 @@
+(trigger
+    (key [[shift][cmd]C]))
+
+(name [Insert Color…])
+
+(only-in source.sass)
+
+(input selection word)
+
+(output replace-selected)
+
+(save nothing)
+
+(script [#!/usr/bin/env ruby
+
+prefix, def_col = '#', ''
+if STDIN.read =~ /(#?)([0-9A-Fa-f]{6})/ then
+  prefix = $1
+  rgb = $2.scan(/../).map { |i| i.hex * 257 }
+  def_col = ' default color {' + rgb.join(",") + '}'
+end
+
+col = `osascript 2>/dev/null -e 'tell app "TextMate" to choose color#{def_col}'`
+exit 200 if col == ""
+
+col = col.split(",").map { |i| i.to_i / 257 }
+printf '%s%02X%02X%02X', prefix, *col
+])

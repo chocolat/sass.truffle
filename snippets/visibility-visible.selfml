@@ -1,0 +1,8 @@
+(name [visibility: visible])
+
+(trigger
+    (tab v))
+
+(only-in source.sass)
+
+(snippet [visibility: visible%{0}])

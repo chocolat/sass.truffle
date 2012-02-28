@@ -1,0 +1,8 @@
+(name [border-left-color: color])
+
+(trigger
+    (tab blc))
+
+(only-in source.sass)
+
+(snippet [border-left-color: #%{1="999"}%{0}])

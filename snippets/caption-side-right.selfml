@@ -1,0 +1,8 @@
+(name [caption-side: right])
+
+(trigger
+    (tab cs))
+
+(only-in source.sass)
+
+(snippet [caption-side: right%{0}])

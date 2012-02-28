@@ -1,0 +1,8 @@
+(name [overflow: visible])
+
+(trigger
+    (tab o))
+
+(only-in source.sass)
+
+(snippet [overflow: visible%{0}])

@@ -1,0 +1,10 @@
+(name box-shadow)
+
+(trigger
+    (tab bs))
+
+(only-in source.sass)
+
+(snippet [-webkit-box-shadow= %{1="0"} %{2="0"} %{3="5px"} %{4="#000"}
+-moz-box-shadow= %{1} %{2} %{3} %{4}
+-box-shadow= %{1} %{2} %{3} %{4}])

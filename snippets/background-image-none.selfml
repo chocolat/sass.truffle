@@ -1,0 +1,8 @@
+(name [background-image: none])
+
+(trigger
+    (tab bgi))
+
+(only-in source.sass)
+
+(snippet [background-image: none%{0}])

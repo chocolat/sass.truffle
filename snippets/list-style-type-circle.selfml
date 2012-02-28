@@ -1,0 +1,8 @@
+(name [list-style-type: circle])
+
+(trigger
+    (tab lst))
+
+(only-in source.sass)
+
+(snippet [list-style-type: circle%{0}])

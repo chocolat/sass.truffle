@@ -1,0 +1,44 @@
+(folding
+    (start [/\*|^#|^\*|^\b|^\.])
+    (stop \*/|^\s*$))
+
+(shell-variables
+    (TM_COMMENT_START [// ]))
+
+(comment.line [// ])
+
+(in [source.sass -meta.property-list])
+
+(pair "
+    "
+    (smart-typing))
+
+(pair “
+    ”
+    (smart-typing))
+
+(pair `[`
+    `]`
+    (smart-typing))
+
+(pair '
+    '
+    (smart-typing))
+
+(pair [`]
+    [`]
+    (smart-typing))
+
+(pair [(]
+    [)]
+    (smart-typing))
+
+(pair [{]
+    [}]
+    (smart-typing))
+
+(in [source.sass meta.property-value])
+
+(in keyword.control.untitled
+    (symbol-list
+        (transformation [s/(.*?)/$1/])))

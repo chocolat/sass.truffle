@@ -1,0 +1,8 @@
+(name [padding-bottom: length])
+
+(trigger
+    (tab pb))
+
+(only-in source.sass)
+
+(snippet [padding-bottom: %{1="1"}%{2="em"}%{0}])

@@ -1,0 +1,8 @@
+(name [color: sass])
+
+(trigger
+    (tab c))
+
+(only-in source.sass)
+
+(snippet [color = !%{1="sass_color"}%{0}])

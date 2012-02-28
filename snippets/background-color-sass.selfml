@@ -1,0 +1,8 @@
+(name [background-color: sass])
+
+(trigger
+    (tab bgc))
+
+(only-in source.sass)
+
+(snippet [background-color = !%{1="sass_color"}%{0}])

@@ -1,0 +1,8 @@
+(name [font-style: oblique])
+
+(trigger
+    (tab fs))
+
+(only-in source.sass)
+
+(snippet [font-style: oblique%{0}])

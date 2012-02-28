@@ -1,0 +1,15 @@
+(name =clearfix)
+
+(trigger
+    (tab cf))
+
+(only-in source.sass)
+
+(snippet [=clearfix
+  &:after
+    content: "%{1="."}"
+    display: block
+    clear: both
+    visibility: hidden
+    line-height: 0
+    height: 0])

@@ -1,0 +1,8 @@
+(name [cursor: default])
+
+(trigger
+    (tab cu))
+
+(only-in source.sass)
+
+(snippet [cursor: default%{0}])

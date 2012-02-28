@@ -1,0 +1,8 @@
+(name [border-width: T R B L])
+
+(trigger
+    (tab bw))
+
+(only-in source.sass)
+
+(snippet [border-width: %{1="1"}%{2="px"} %{3="1"}%{4="px"} %{5="1"}%{6="px"} %{7="1"}%{8="px"}%{0}])

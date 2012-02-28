@@ -1,0 +1,8 @@
+(name [border-collapse: collapse])
+
+(trigger
+    (tab bc))
+
+(only-in source.sass)
+
+(snippet [border-collapse: collapse%{0}])

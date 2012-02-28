@@ -1,0 +1,8 @@
+(name [white-space: pre])
+
+(trigger
+    (tab ws))
+
+(only-in source.sass)
+
+(snippet [white-space: pre%{0}])

@@ -1,0 +1,8 @@
+(name [border-style: solid])
+
+(trigger
+    (tab bs))
+
+(only-in source.sass)
+
+(snippet [border-style: solid%{0}])

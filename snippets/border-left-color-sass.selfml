@@ -1,0 +1,9 @@
+(name [border-left-color: sass])
+
+(trigger
+    (tab blc))
+
+(only-in source.sass)
+
+(snippet [border-left-color = !%{2="sass_color"}
+])

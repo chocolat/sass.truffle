@@ -1,0 +1,8 @@
+(name [empty-cells: show])
+
+(trigger
+    (tab ec))
+
+(only-in source.sass)
+
+(snippet [empty-cells: show%{0}])

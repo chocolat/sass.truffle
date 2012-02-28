@@ -1,0 +1,8 @@
+(name [overflow: auto])
+
+(trigger
+    (tab o))
+
+(only-in source.sass)
+
+(snippet [overflow: auto%{0}])

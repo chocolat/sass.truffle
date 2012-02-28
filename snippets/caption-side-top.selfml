@@ -1,0 +1,8 @@
+(name [caption-side: top])
+
+(trigger
+    (tab cs))
+
+(only-in source.sass)
+
+(snippet [caption-side: top%{0}])

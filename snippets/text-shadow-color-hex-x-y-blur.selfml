@@ -1,0 +1,8 @@
+(name [text-shadow: color-hex x y blur])
+
+(trigger
+    (tab ts))
+
+(only-in source.sass)
+
+(snippet [text-shadow: #%{1="ddd"} %{2="10"}%{3="px"} %{4="10"}%{5="px"} %{6="2"}%{7="px"}%{0}])

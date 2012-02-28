@@ -1,0 +1,8 @@
+(name [float: none])
+
+(trigger
+    (tab fl))
+
+(only-in source.sass)
+
+(snippet [float: none%{0}])

@@ -1,0 +1,8 @@
+(name [border-style: groove])
+
+(trigger
+    (tab bs))
+
+(only-in source.sass)
+
+(snippet [border-style: groove%{0}])

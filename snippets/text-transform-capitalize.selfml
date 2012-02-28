@@ -1,0 +1,8 @@
+(name [text-transform: capitalize])
+
+(trigger
+    (tab tt))
+
+(only-in source.sass)
+
+(snippet [text-transform: capitalize%{0}])

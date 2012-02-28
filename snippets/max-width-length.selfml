@@ -1,0 +1,8 @@
+(name [max-width: length])
+
+(trigger
+    (tab mw))
+
+(only-in source.sass)
+
+(snippet [max-width: %{1="20"}%{2="px"}%{0}])

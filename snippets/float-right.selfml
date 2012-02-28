@@ -1,0 +1,8 @@
+(name [float: right])
+
+(trigger
+    (tab fl))
+
+(only-in source.sass)
+
+(snippet [float: right%{0}])

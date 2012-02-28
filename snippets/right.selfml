@@ -1,0 +1,8 @@
+(name right)
+
+(trigger
+    (tab r))
+
+(only-in source.sass)
+
+(snippet [right: %{1="0"}%{2="em"}])

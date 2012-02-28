@@ -1,0 +1,9 @@
+(name [border-bottom-color: sass])
+
+(trigger
+    (tab bbc))
+
+(only-in source.sass)
+
+(snippet [border-bottom-color = !%{2="sass_color"}
+])

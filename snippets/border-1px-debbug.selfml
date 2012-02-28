@@ -1,0 +1,8 @@
+(name [border 1px debbug])
+
+(trigger
+    (tab bdd))
+
+(only-in source.sass)
+
+(snippet [border: 1px solid %{1="red"}%{0}])

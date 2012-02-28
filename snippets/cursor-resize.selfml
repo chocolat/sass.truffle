@@ -1,0 +1,8 @@
+(name [cursor: resize])
+
+(trigger
+    (tab cu))
+
+(only-in source.sass)
+
+(snippet [cursor: resize%{0}])

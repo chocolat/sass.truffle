@@ -1,0 +1,8 @@
+(name [position: static (default)])
+
+(trigger
+    (tab p))
+
+(only-in source.sass)
+
+(snippet [position: static%{0}])

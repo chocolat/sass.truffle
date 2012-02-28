@@ -1,0 +1,9 @@
+(name [margin+padding: 0])
+
+(trigger
+    (tab mp))
+
+(only-in source.sass)
+
+(snippet [margin: 0
+padding: 0])

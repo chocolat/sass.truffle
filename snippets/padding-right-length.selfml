@@ -1,0 +1,8 @@
+(name [padding-right: length])
+
+(trigger
+    (tab pr))
+
+(only-in source.sass)
+
+(snippet [padding-right: %{1="1"}%{2="em"}%{0}])

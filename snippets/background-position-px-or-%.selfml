@@ -1,0 +1,8 @@
+(name [background-position: px or %])
+
+(trigger
+    (tab bgp))
+
+(only-in source.sass)
+
+(snippet [background-position: %{1="x"}%{2="px"} %{3="y"}%{4="px"}%{0}])

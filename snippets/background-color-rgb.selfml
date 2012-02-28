@@ -1,0 +1,8 @@
+(name [background-color: rgb])
+
+(trigger
+    (tab bgc))
+
+(only-in source.sass)
+
+(snippet [background-color: rgb(%{1="255"},%{2="255"},%{3="255"})%{0}])

@@ -1,0 +1,8 @@
+(name [text-shadow: none])
+
+(trigger
+    (tab ts))
+
+(only-in source.sass)
+
+(snippet [text-shadow: none%{0}])

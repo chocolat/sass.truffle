@@ -1,0 +1,8 @@
+(name [font-variant: normal])
+
+(trigger
+    (tab fv))
+
+(only-in source.sass)
+
+(snippet [font-variant: normal%{0}])

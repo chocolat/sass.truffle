@@ -1,0 +1,8 @@
+(name [position: relative])
+
+(trigger
+    (tab p))
+
+(only-in source.sass)
+
+(snippet [position: relative%{0}])

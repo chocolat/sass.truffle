@@ -1,0 +1,8 @@
+(name [text-decoration: underline])
+
+(trigger
+    (tab td))
+
+(only-in source.sass)
+
+(snippet [text-decoration: underline%{0}])

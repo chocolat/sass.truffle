@@ -1,0 +1,8 @@
+(name [clear: left])
+
+(trigger
+    (tab cl))
+
+(only-in source.sass)
+
+(snippet [clear: left%{0}])

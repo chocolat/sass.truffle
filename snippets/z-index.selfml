@@ -1,0 +1,8 @@
+(name z-index:)
+
+(trigger
+    (tab z))
+
+(only-in source.sass)
+
+(snippet [z-index: %{1}%{0}])

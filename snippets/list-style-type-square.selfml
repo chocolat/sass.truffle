@@ -1,0 +1,8 @@
+(name [list-style-type: square])
+
+(trigger
+    (tab lst))
+
+(only-in source.sass)
+
+(snippet [list-style-type: square%{0}])

@@ -1,0 +1,8 @@
+(name [cursor: move])
+
+(trigger
+    (tab cu))
+
+(only-in source.sass)
+
+(snippet [cursor: move%{0}])

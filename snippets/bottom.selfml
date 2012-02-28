@@ -1,0 +1,8 @@
+(name bottom)
+
+(trigger
+    (tab b))
+
+(only-in source.sass)
+
+(snippet [bottom: %{1="0"}%{2="em"}])

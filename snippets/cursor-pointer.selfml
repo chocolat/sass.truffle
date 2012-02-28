@@ -1,0 +1,8 @@
+(name [cursor: pointer])
+
+(trigger
+    (tab cu))
+
+(only-in source.sass)
+
+(snippet [cursor: pointer%{0}])

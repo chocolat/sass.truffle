@@ -1,0 +1,8 @@
+(name +clearfix)
+
+(trigger
+    (tab cf))
+
+(only-in source.sass)
+
+(snippet +clearfix)

@@ -1,0 +1,8 @@
+(name line-height)
+
+(trigger
+    (tab lh))
+
+(only-in source.sass)
+
+(snippet [line-height: %{1="1.3"}%{2="em"}%{0}])

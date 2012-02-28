@@ -1,0 +1,8 @@
+(name [color: name])
+
+(trigger
+    (tab c))
+
+(only-in source.sass)
+
+(snippet [color: %{1="white "}%{2="black "}%{3="transparent "}%{4="red"}%{0}])

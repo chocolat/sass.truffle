@@ -1,0 +1,8 @@
+(name [font-weight: normal])
+
+(trigger
+    (tab fw))
+
+(only-in source.sass)
+
+(snippet [font-weight: normal%{0}])

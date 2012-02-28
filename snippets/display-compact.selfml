@@ -1,0 +1,8 @@
+(name [display: compact])
+
+(trigger
+    (tab d))
+
+(only-in source.sass)
+
+(snippet [display: compact%{0}])
