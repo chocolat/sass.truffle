@@ -5,4 +5,4 @@
 
 (only-in source.sass)
 
-(snippet [font: %{1=".7"}%{2="em"}/%{3="1.5"}%{4="em"} %{5="Georgia, "}%{6=""Lucida Grande", "}%{7=""Lucida Sans Unicode", "}%{8="helvetica, "}%{9="verdana, "}%{10="arial, "}%{11="times, "Times New Roman", "}%{12="sans-"}serif%{0}])
+(snippet [font: %{1=".7"}%{2="em"}/%{3="1.5"}%{4="em"} %{5="Georgia, "}%{6="\"Lucida Grande\", "}%{7="\"Lucida Sans Unicode\", "}%{8="helvetica, "}%{9="verdana, "}%{10="arial, "}%{11="times, \"Times New Roman\", "}%{12="sans-"}serif%{0}])
